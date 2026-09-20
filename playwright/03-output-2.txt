@@ -1,0 +1,34 @@
+(.venv) PS C:\Kazuma\Learning\learning-playwright-with-gpt-6-astra> python .\03-execute-playwright-custom-page-1.py
+
+Ask a question (or 'quit'): htthttps://piyo123.github.io/learning-playwright-with-gpt-6-astra/input1.htmlにて、上から3つめのテキストボックスに現在時刻を入力し、背景が水色のボタンをクリックしてください。
+
+========== Turn 1 ==========
+
+========== Astra generated code ==========
+page.goto('https://piyo123.github.io/learning-playwright-with-gpt-6-astra/input1.html'); display(page.screenshot())
+==========================================
+
+
+========== Turn 2 ==========
+
+========== Astra generated code ==========
+t=page.evaluate("new Date().toLocaleTimeString('ja-JP', {timeZone:'Asia/Tokyo',hour12:false})")
+page.get_by_role('textbox').nth(2).fill(t)
+page.get_by_role('button',name='Done').nth(0).click()
+print('入力時刻（日本時間）:',t)
+display(page.screenshot())
+==========================================
+
+入力時刻（日本時間）: 15:50:17
+
+
+========== Turn 3 ==========
+
+========== Final answer ==========
+
+上から3つめのテキストボックスに現在時刻「15:50:17」（日本時間）を入力し、水色の「Done」ボタンをクリックしました。画面に「OK」と表示されたことを確認しました。
+
+Closing browser...
+
+Ask a question (or 'quit'): quit
+(.venv) PS C:\Kazuma\Learning\learning-playwright-with-gpt-6-astra>

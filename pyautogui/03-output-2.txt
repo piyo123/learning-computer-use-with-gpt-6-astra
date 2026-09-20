@@ -1,0 +1,39 @@
+(.venv) PS C:\Kazuma\Learning\learning-computer-use-with-gpt-6-astra\pyautogui> python .\03-execute-pyautogui-custom-app-1.py
+
+Ask a question (or 'quit'): https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/input1.htmlにて、上から3つめのテキストボックスに現在時刻を入力し、背景が水色のボタンをクリックしてください。
+
+========== Turn 1 ==========
+
+========== Astra generated code ==========
+display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 2 ==========
+
+========== Astra generated code ==========
+pyautogui.hotkey('win','r'); time.sleep(0.4); paste_text('chrome --guest'); pyautogui.press('enter'); time.sleep(2); pyautogui.hotkey('win','right'); time.sleep(0.6); pyautogui.hotkey('ctrl','l'); paste_text('https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/input1.html'); pyautogui.press('enter'); time.sleep(2); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 3 ==========
+
+========== Astra generated code ==========
+pyautogui.click(1057,147); paste_text(time.strftime('%H:%M:%S')); pyautogui.click(992,213); time.sleep(0.6); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 4 ==========
+
+========== Astra generated code ==========
+pyautogui.click(1896,20)
+==========================================
+
+
+========== Turn 5 ==========
+
+========== Final answer ==========
+
+上から3つめのテキストボックスに現在時刻「18:09:56」を入力し、水色の「Done」ボタンをクリックしました。「OK」の表示を確認しました。
+
+Ask a question (or 'quit'):

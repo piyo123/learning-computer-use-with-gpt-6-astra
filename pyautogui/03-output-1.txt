@@ -1,0 +1,39 @@
+(.venv) PS C:\Kazuma\Learning\learning-computer-use-with-gpt-6-astra\pyautogui> python .\03-execute-pyautogui-custom-app-1.py
+
+Ask a question (or 'quit'): かぐや姫は何から生まれましたか。参照URL:https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/otogi_list.html
+
+========== Turn 1 ==========
+
+========== Astra generated code ==========
+display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 2 ==========
+
+========== Astra generated code ==========
+pyautogui.hotkey('win','r'); time.sleep(.4); paste_text('chrome --guest'); pyautogui.press('enter'); time.sleep(2); pyautogui.hotkey('win','right'); time.sleep(.6); pyautogui.hotkey('ctrl','l'); paste_text('https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/otogi_list.html'); pyautogui.press('enter'); time.sleep(2); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 3 ==========
+
+========== Astra generated code ==========
+pyautogui.click(1040,178); time.sleep(1); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 4 ==========
+
+========== Astra generated code ==========
+pyautogui.hotkey('alt','f4')
+==========================================
+
+
+========== Turn 5 ==========
+
+========== Final answer ==========
+
+かぐや姫は、**光る竹の中**から生まれました。竹取の翁がその竹を切ると、中から小さな女の子が現れました。
+
+Ask a question (or 'quit'):

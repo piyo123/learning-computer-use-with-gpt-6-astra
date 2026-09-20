@@ -1,0 +1,1 @@
+ResponseFunctionToolCall(arguments='{"code":"display(pyautogui.screenshot())"}', call_id='call_zcftP55X5B19Jr08EUaeRlF3', name='exec_py', type='function_call', id='fc_06b64e53d22d6c20006aaf8f4853d081948e59c13d53e3cee1', async_=None, caller=None, namespace=None, status='completed')

@@ -1,0 +1,75 @@
+(.venv) PS C:\Kazuma\Learning\learning-computer-use-with-gpt-6-astra\pyautogui> python .\03-execute-pyautogui-custom-app-1.py
+
+Ask a question (or 'quit'): test-form.ps1を実行してください。アプリケーションが表示されるので、テキストボックスにHello World!と入力し、ボタンをクリックしてください。メッセージボックスに入力したテキストが表示されていることを確認したら「OK」をおしてメッセージボックスを閉じ、アプリケーションを閉じてください。
+
+========== Turn 1 ==========
+
+========== Astra generated code ==========
+display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 2 ==========
+
+========== Astra generated code ==========
+import os
+log(os.getcwd())
+log(os.path.exists('test-form.ps1'))
+==========================================
+
+NameError: name 'log' is not defined
+
+========== Turn 3 ==========
+
+========== Astra generated code ==========
+print(os.getcwd())
+print(os.path.exists('test-form.ps1'))
+==========================================
+
+C:\Kazuma\Learning\learning-computer-use-with-gpt-6-astra\pyautogui
+True
+
+
+========== Turn 4 ==========
+
+========== Astra generated code ==========
+import subprocess
+p = subprocess.Popen(['powershell.exe','-NoProfile','-File',os.path.abspath('test-form.ps1')], creationflags=subprocess.CREATE_NO_WINDOW)
+time.sleep(3)
+display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 5 ==========
+
+========== Astra generated code ==========
+pyautogui.moveTo(930,441)
+pyautogui.dragRel(480,0,1)
+pyautogui.click(1390,497)
+paste_text('Hello World!')
+pyautogui.click(1328,547)
+time.sleep(0.7)
+display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 6 ==========
+
+========== Astra generated code ==========
+pyautogui.click(974,588)
+time.sleep(0.3)
+pyautogui.click(1609,441)
+time.sleep(0.5)
+display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 7 ==========
+
+========== Final answer ==========
+
+test-form.ps1を実行し、テキストボックスに「Hello World!」と入力して「Show」ボタンをクリックしました。
+
+メッセージボックスに「Hello World!」が表示されていることを確認し、「OK」で閉じた後、アプリケーションも閉じました。
+
+Ask a question (or 'quit'):

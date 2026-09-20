@@ -1,0 +1,32 @@
+(.venv) PS C:\Kazuma\Learning\learning-playwright-with-gpt-6-astra> python .\03-execute-playwright-custom-page-1.py
+
+Ask a question (or 'quit'): かぐや姫は何から生まれましたか。参照URL: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/otogi_list.html
+
+========== Turn 1 ==========
+
+========== Astra generated code ==========
+page.goto('https://piyo123.github.io/learning-playwright-with-gpt-6-astra/otogi_list.html'); display(page.screenshot())
+==========================================
+
+
+========== Turn 2 ==========
+
+========== Astra generated code ==========
+page.get_by_role('link', name='かぐや姫').click(); print(page.locator('body').inner_text()); display(page.screenshot())
+==========================================
+
+かぐや姫
+竹取の翁が光る竹を切ると、中から小さな女の子が現れました。かぐや姫と名付けられ、美しい女性へと成長します。その美しさを聞きつけた貴族たちが結婚を申し込みますが、かぐや姫は難しい宝物を持ち帰るよう求め、誰も成功できませんでした。やがて、かぐや姫は自分が月の世界の者であることを明かします。満月の夜、月から迎えが訪れ、翁たちとの別れを惜しみながら月へ帰っていきました。
+
+
+========== Turn 3 ==========
+
+========== Final answer ==========
+
+かぐや姫は、**光る竹の中**から生まれました。参照URLの「かぐや姫」を確認したところ、竹取の翁が光る竹を切ると、中から小さな女の子が現れたと書かれています。
+
+Closing browser...
+
+Ask a question (or 'quit'): quit
+(.venv) PS C:\Kazuma\Learning\learning-playwright-with-gpt-6-astra>
+

@@ -1,0 +1,47 @@
+(.venv) PS C:\Kazuma\Learning\learning-computer-use-with-gpt-6-astra\pyautogui> python .\02-execute-pyautogui-wikipedia.py
+
+========== Turn 1 ==========
+
+========== Astra generated code ==========
+display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 2 ==========
+
+========== Astra generated code ==========
+pyautogui.hotkey('win','r'); time.sleep(0.5); pyautogui.write('chrome --guest',0.08); pyautogui.press('enter'); time.sleep(3); pyautogui.hotkey('win','right'); time.sleep(1); pyautogui.press('esc'); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 3 ==========
+
+========== Astra generated code ==========
+pyautogui.hotkey('ctrl','l'); pyautogui.write('https://ja.wikipedia.org/w/index.php?search=%E7%B9%94%E7%94%B0%E4%BF%A1%E9%95%B7',0.02); pyautogui.press('enter'); time.sleep(4); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 4 ==========
+
+========== Astra generated code ==========
+pyautogui.hotkey('ctrl','l'); pyautogui.write('ja.wikipedia.org/w/index.php?search=%E7%B9%94%E7%94%B0%E4%BF%A1%E9%95%B7',0.02); pyautogui.press('enter'); time.sleep(4); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 5 ==========
+
+========== Astra generated code ==========
+pyautogui.hotkey('alt','f4'); time.sleep(0.8); display(pyautogui.screenshot())
+==========================================
+
+
+========== Turn 6 ==========
+
+========== Final answer ==========
+
+織田信長が亡くなった年は **1582年（天正10年）** です。
+
+日本語版Wikipediaの「織田信長」記事の冒頭に、天正10年6月2日（1582年6月21日）、本能寺の変で自害したと記載されていることを確認しました。
+
+確認後、Chromeは閉じました。
+(.venv) PS C:\Kazuma\Learning\learning-computer-use-with-gpt-6-astra\pyautogui>

@@ -32,7 +32,7 @@ GPT-5.6 Sol に言わせれば、`人間のマウスとキーボードを AI に
   Playwright が出力する `命令` を観察するのみのプログラムです。
 
 - 02-execute-playwright-wikipedia.py  
-  Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。
+  Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。 
   結果の標準出力は [こちら](playwright/02-output.txt) から、動画は [こちら][playwright_oda] からご確認いただけます。
 
 - 03-execute-playwright-custom-page.py  
@@ -49,7 +49,7 @@ GPT-5.6 Sol に言わせれば、`人間のマウスとキーボードを AI に
     Playwright が出力する `コード` を観察するのみのプログラムです。
 
   - 02-execute-playwright-wikipedia.py  
-    Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。
+    Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。 
     結果の標準出力は [こちら](pyautogui/02-output.txt) から、動画は [こちら][pyautogui_oda] からご確認いただけます。
 
   - 03-execute-playwright-custom-page.py  

@@ -32,12 +32,12 @@ GPT-5.6 Sol に言わせれば、`人間のマウスとキーボードを AI に
   Playwright が出力する `命令` を観察するのみのプログラムです。
 
 - 02-execute-playwright-wikipedia.py  
-  Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。 
+  Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。  
   結果の標準出力は [こちら](playwright/02-output.txt) から、動画は [こちら][playwright_oda] からご確認いただけます。
 
 - 03-execute-playwright-custom-page.py  
 
-    - 1: 簡単な自前の[ページ](https://piyo123.github.io/learning-playwright-with-gpt-6-astra/otogi_list.html)におとぎ話のあらすじが書かれたページへのリンクがいくつかあります。この中から指示に基づき かぐや姫 が何から生まれたかを回答します。  
+    - 1: 簡単な自前の[ページ](https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/otogi_list.html)におとぎ話のあらすじが書かれたページへのリンクがいくつかあります。この中から指示に基づき かぐや姫 が何から生まれたかを回答します。  
     結果の標準出力は [こちら](playwright/03-output-1.txt) から、動画は [こちら][playwright_otogi] からご確認いただけます。
 
     - 2: 同じく簡単なテキストボックスとボタンが配置されたページを開き、5つ縦に並んだテキストボックスの真ん中に現在時刻を入力、青と赤のボタンの内、青のボタンをクリックします。  
@@ -49,12 +49,12 @@ GPT-5.6 Sol に言わせれば、`人間のマウスとキーボードを AI に
     Playwright が出力する `コード` を観察するのみのプログラムです。
 
   - 02-execute-playwright-wikipedia.py  
-    Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。 
+    Web ブラウザーを開いて Wikipedia を開き、織田信長の没年を取得します。  
     結果の標準出力は [こちら](pyautogui/02-output.txt) から、動画は [こちら][pyautogui_oda] からご確認いただけます。
 
   - 03-execute-playwright-custom-page.py  
 
-    - 1: 簡単な自前の[ページ](https://piyo123.github.io/learning-playwright-with-gpt-6-astra/otogi_list.html)におとぎ話のあらすじが書かれたページへのリンクがいくつかあります。この中から指示に基づき かぐや姫 が何から生まれたかを回答します。  
+    - 1: 簡単な自前の[ページ](https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/otogi_list.html)におとぎ話のあらすじが書かれたページへのリンクがいくつかあります。この中から指示に基づき かぐや姫 が何から生まれたかを回答します。  
     結果の標準出力は [こちら](pyautogui/03-output-1.txt) から、動画は [こちら][pyautogui_otogi] からご確認いただけます。
 
     - 2: 同じく簡単なテキストボックスとボタンが配置されたページを開き、5つ縦に並んだテキストボックスの真ん中に現在時刻を入力、青と赤のボタンの内、青のボタンをクリックします。  
@@ -65,10 +65,10 @@ GPT-5.6 Sol に言わせれば、`人間のマウスとキーボードを AI に
 
 
 
-[playwright_oda]: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/demo_video.html?video=1
-[playwright_otogi]: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/demo_video.html?video=2
-[playwright_input1]: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/demo_video.html?video=3
-[pyautogui_oda]: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/demo_video.html?video=4
-[pyautogui_otogi]: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/demo_video.html?video=5
-[pyautogui_input1]: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/demo_video.html?video=6
-[pyautogui_winform]: https://piyo123.github.io/learning-playwright-with-gpt-6-astra/demo_video.html?video=7
+[playwright_oda]: https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/demo_video.html?video=1
+[playwright_otogi]: https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/demo_video.html?video=2
+[playwright_input1]: https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/demo_video.html?video=3
+[pyautogui_oda]: https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/demo_video.html?video=4
+[pyautogui_otogi]: https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/demo_video.html?video=5
+[pyautogui_input1]: https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/demo_video.html?video=6
+[pyautogui_winform]: https://piyo123.github.io/learning-computer-use-with-gpt-6-astra/demo_video.html?video=7
